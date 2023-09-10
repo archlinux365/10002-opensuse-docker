@@ -23,6 +23,16 @@ zypper install -y which
 zypper install -y python311-xmltodict 
 zypper install -y python3-kiwi
 zypper install -y dracut
+zypper install -y dracut-kiwi-live
+zypper install -y dracut-kiwi-oem-dump
+zypper install -y dracut-kiwi-oem-repart
+zypper install -y dracut-ima
+zypper install -y dracut-fips
+zypper install -y dracut-extra
+zypper install -y dracut-sshd
+zypper install -y dracut-tools
+zypper install -y dracut-transactional-update
+zypper install -y afterburn-dracut
 zypper install -y qemu
 zypper install -y checkmedia
 zypper install -y qemu-img
@@ -30,6 +40,7 @@ zypper install -y dosfstools
 zypper install -y git
 zypper install -y sudo
 zypper install -y tar
+zypper install -y e2fsprogs
 which qemu-img
 which rpmdb
 
