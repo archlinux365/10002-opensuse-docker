@@ -27,6 +27,8 @@ zypper install -y qemu
 zypper install -y checkmedia
 zypper install -y qemu-img
 zypper install -y dosfstools
+zypper install -y git
+zypper install -y sudo
 which qemu-img
 which rpmdb
 
