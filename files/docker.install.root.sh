@@ -42,6 +42,8 @@ zypper install -y git
 zypper install -y sudo
 zypper install -y tar
 zypper install -y e2fsprogs
+zypper install -y binutils
+zypper install -y squashfs
 which qemu-img
 which rpmdb
 
