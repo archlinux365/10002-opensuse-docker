@@ -44,7 +44,7 @@ cd 10002-opensuse-docker
 
 rm -rf versions 
 
-cid=$(docker run -it --detach registry.cn-hangzhou.aliyuncs.com/archlinux365/10002-opensuse-docker-runner:latest)
+cid=$(docker run -it --detach registry.cn-hangzhou.aliyuncs.com/archlinux365/10002-opensuse-docker-root:latest)
 docker cp ${cid}:/root/versions/ ./versions/
 
 git config --global user.email "gnuhub@gmail.com"
