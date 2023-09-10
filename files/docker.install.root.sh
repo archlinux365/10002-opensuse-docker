@@ -33,6 +33,7 @@ zypper install -y dracut-sshd
 zypper install -y dracut-tools
 zypper install -y dracut-transactional-update
 zypper install -y afterburn-dracut
+zypper install -y rpcbind
 zypper install -y qemu
 zypper install -y checkmedia
 zypper install -y qemu-img
