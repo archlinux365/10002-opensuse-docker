@@ -44,6 +44,18 @@ zypper install -y tar
 zypper install -y e2fsprogs
 zypper install -y binutils
 zypper install -y squashfs
+zypper install -y keyutils
+zypper install -y util-linux-systemd
+zypper install -y busybox
+zypper install -y nvme-cli
+zypper install -y dmraid
+zypper install -y lvm2
+zypper install -y btrfsprogs
+zypper install -y mdadm
+zypper install -y open-lldp
+zypper install -y nbd
+zypper install -y open-iscsi
+zypper install -y fcoe-utils
 which qemu-img
 which rpmdb
 
