@@ -226,6 +226,8 @@ i  | libstdc++6                            | The standard C++ shared library    
 i  | libsubid4                             | A library to manage subordinate uid and gid ranges                           | package
 i  | libsystemd0                           | Component library for systemd                                                | package
 i  | libtasn1-6                            | ASN.1 parsing library                                                        | package
+i  | libtirpc-netconfig                    | Netconfig configuration file for TI-RPC Library                              | package
+i  | libtirpc3                             | Transport Independent RPC Library                                            | package
 i  | libtss2-esys0                         | TPM2 Enhanced System API (ESAPI)                                             | package
 i  | libtss2-mu0                           | TPM2 marshaling/unmarshaling library                                         | package
 i  | libtss2-rc0                           | TPM2 error code translation library                                          | package
@@ -240,6 +242,7 @@ i  | libutempter0                          | Shared library of utempter         
 i  | libuuid1                              | Library to generate UUIDs                                                    | package
 i  | libvdeplug3                           | VDE plug library                                                             | package
 i  | libverto1                             | Runtime libraries for libverto                                               | package
+i  | libwrap0                              | The TCP wrapper library                                                      | package
 i  | libxml2-2                             | A Library to Manipulate XML Files                                            | package
 i  | libxslt1                              | XSL Transformation Library                                                   | package
 i  | libxxhash0                            | Shared library for xxHash - a non-cryptographic hash algorithm               | package
@@ -329,6 +332,7 @@ i  | qemu-seabios                          | x86 Legacy BIOS for QEMU           
 i  | qemu-vgabios                          | VGA BIOSes for QEMU                                                          | package
 i  | qemu-x86                              | Machine emulator and virtualizer for x86 architectures                       | package
 i  | rdma-core                             | RDMA core userspace libraries and daemons                                    | package
+i+ | rpcbind                               | Transport independent RPC portmapper                                         | package
 i  | rpm                                   | The RPM Package Manager                                                      | package
 i  | rpm-config-SUSE                       | SUSE specific RPM configuration files                                        | package
 i  | rsync                                 | Versatile tool for fast incremental file transfer                            | package
