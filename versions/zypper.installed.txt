@@ -11,6 +11,7 @@ i  | alts                                  | Helper for executing preferred appl
 i+ | bash                                  | The GNU Bourne-Again Shell                                                   | package
 i  | bash-sh                               | Handle behaviour of /bin/sh                                                  | package
 i  | bc                                    | GNU Command Line Calculator                                                  | package
+i+ | binutils                              | GNU Binutils                                                                 | package
 i  | boost-license1_82_0                   | Boost License                                                                | package
 i  | btrfsprogs                            | Utilities for the Btrfs filesystem                                           | package
 i  | btrfsprogs-udev-rules                 | Udev rules for configuring btrfs file systems                                | package
@@ -108,6 +109,8 @@ i  | libcomps0                             | Libraries for libcomps             
 i  | libcrack2                             | Library to crack passwords using dictionaries                                | package
 i  | libcrypt1                             | Extended crypt library for DES, MD5, Blowfish and others                     | package
 i  | libcryptsetup12                       | Library for setting up dm-crypt Based Encrypted Block Devices                | package
+i  | libctf-nobfd0                         | Compact C Type Format library (runtime, no BFD dependency)                   | package
+i  | libctf0                               | Compact C Type Format library (runtime, BFD dependency)                      | package
 i  | libcurl4                              | Library for transferring data from URLs                                      | package
 i  | libdb-4_8                             | Berkeley DB Database Library Version 4.8                                     | package
 i  | libdbus-1-3                           | Library package for D-Bus                                                    | package
@@ -341,6 +344,7 @@ i  | sed                                   | A Stream-Oriented Non-Interactive T
 i  | shadow                                | Utilities to Manage User and Group Accounts                                  | package
 i  | shared-mime-info                      | Shared MIME Database                                                         | package
 i  | snapper                               | Tool for filesystem snapshot management                                      | package
+i+ | squashfs                              | A Read-Only File System with Efficient Compression                           | package
 i+ | sudo                                  | Execute some commands as root                                                | package
 i  | suse-module-tools                     | Configuration for module loading and SUSE-specific utilities for KMPs        | package
 i  | system-group-hardware                 | Hardware related system groups                                               | package
