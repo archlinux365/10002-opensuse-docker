@@ -29,6 +29,7 @@ zypper install -y qemu-img
 zypper install -y dosfstools
 zypper install -y git
 zypper install -y sudo
+zypper install -y tar
 which qemu-img
 which rpmdb
 
@@ -48,4 +49,5 @@ zypper patches > zypper.patches.txt
 zypper packages > zypper.packages.txt 
 zypper patterns > zypper.patterns.txt 
 zypper products > zypper.products.txt 
+zypper search --installed-only > zypper.installed.txt 
 
