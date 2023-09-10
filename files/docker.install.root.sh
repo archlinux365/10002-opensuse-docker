@@ -39,17 +39,7 @@ export USER=root
 
 # 2 Add builder User
 cat /etc/passwd
-groupadd runner
-useradd -m -d /home/runner -G sudo -g runner runner -s /bin/bash
-mkdir -p /etc/sudoers.d
-echo "root ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/root-nopassword
-echo "runner ALL=(ALL) NOPASSWD: ALL"   > /etc/sudoers.d/runner-nopassword
-chmod 750 /etc/sudoers.d/root-nopassword
-chmod 750 /etc/sudoers.d/runner-nopassword
-chmod 750 /etc/sudoers.d/
-cat /etc/passwd
-
-cd ~
+cd /root/
 mkdir versions
 
 cd versions
@@ -59,10 +49,3 @@ zypper packages > zypper.packages.txt
 zypper patterns > zypper.patterns.txt 
 zypper products > zypper.products.txt 
 
-
-
-mkdir -p /opt/9138packages
-git config --global user.email "gnuhub@gmail.com"
-git config --global user.name "gnuhub"
-
-chown -R runner:runner /opt/9318/
