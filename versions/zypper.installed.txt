@@ -15,6 +15,7 @@ i+ | binutils                              | GNU Binutils                       
 i  | boost-license1_82_0                   | Boost License                                                                | package
 i  | btrfsprogs                            | Utilities for the Btrfs filesystem                                           | package
 i  | btrfsprogs-udev-rules                 | Udev rules for configuring btrfs file systems                                | package
+i+ | busybox                               | Minimalist variant of UNIX utilities linked in a single executable           | package
 i+ | ca-certificates                       | Utilities for system wide CA certificate installation                        | package
 i+ | ca-certificates-mozilla               | CA certificates for OpenSSL                                                  | package
 i+ | checkmedia                            | Check installation or Live media                                             | package
@@ -34,6 +35,7 @@ i  | deltarpm                              | Tools to Create and Apply deltarpms
 i  | device-mapper                         | Device Mapper Tools                                                          | package
 i  | dialog                                | Menus and Input Boxes for Shell Scripts                                      | package
 i  | diffutils                             | GNU diff Utilities                                                           | package
+i+ | dmraid                                | A Device-Mapper Software RAID Support Tool                                   | package
 i  | dnf                                   | Package manager forked from Yum, using libsolv as a dependency resolver      | package
 i  | dnf-data                              | Common data and configuration files for DNF                                  | package
 i+ | dosfstools                            | Utilities for Making and Checking MS-DOS FAT File Systems on Linux           | package
@@ -51,6 +53,7 @@ i+ | dracut-transactional-update           | Dracut module for supporting transa
 i  | e2fsprogs                             | Utilities for the Second Extended File System                                | package
 i  | elfutils                              | Higher-level library to access ELF files                                     | package
 i  | evmctl                                | IMA/EVM signing utility                                                      | package
+i+ | fcoe-utils                            | FCoE userspace management tools                                              | package
 i  | file                                  | A Tool to Determine File Types                                               | package
 i  | file-magic                            | Database for libmagic to help identify files                                 | package
 i+ | filesystem                            | Basic Directory Layout                                                       | package
@@ -70,6 +73,7 @@ i  | gptfdisk                              | GPT partitioning and MBR repair sof
 i  | grep                                  | Print lines matching a pattern                                               | package
 i+ | gzip                                  | GNU Zip Compression Utilities                                                | package
 i  | info                                  | A Stand-Alone Terminal-Based Info Browser                                    | package
+i  | iproute2                              | Linux network configuration utilities                                        | package
 i  | kbd                                   | Keyboard and Font Utilities                                                  | package
 i  | kbd-legacy                            | Legacy data for kbd package                                                  | package
 i  | kexec-tools                           | Tools for loading replacement kernels into memory                            | package
@@ -106,6 +110,7 @@ i  | libcapstone4                          | A multi-platform, multi-architectur
 i  | libcbor0_10                           | Library for parsing Concise Binary Object Representation (CBOR)              | package
 i  | libcom_err2                           | E2fsprogs error reporting library                                            | package
 i  | libcomps0                             | Libraries for libcomps                                                       | package
+i  | libconfig11                           | C API of libconfig                                                           | package
 i  | libcrack2                             | Library to crack passwords using dictionaries                                | package
 i  | libcrypt1                             | Extended crypt library for DES, MD5, Blowfish and others                     | package
 i  | libcryptsetup12                       | Library for setting up dm-crypt Based Encrypted Block Devices                | package
@@ -147,6 +152,7 @@ i  | libgpg-error0                         | Library That Defines Common Error V
 i  | libgpgme11                            | Programmatic library interface to GnuPG                                      | package
 i  | libhidapi-hidraw0                     | Simple library for communicating with USB and Bluetooth HID devices          | package
 i  | libhogweed6                           | Cryptographic Library for Public Key Algorithms                              | package
+i  | libhugetlbfs                          | Helper library for the Huge Translation Lookaside Buffer Filesystem          | package
 i  | libibverbs                            | Library & drivers for direct userspace use of InfiniBand/iWARP/RoCE hardware | package
 i  | libibverbs1                           | Ibverbs runtime library                                                      | package
 i  | libidn2-0                             | Support for Internationalized Domain Names (IDN)                             | package
@@ -165,6 +171,7 @@ i  | libkeyutils1                          | Key utilities library              
 i  | libkmod2                              | Library to interact with Linux kernel modules                                | package
 i  | libksba8                              | A X.509 Library                                                              | package
 i  | libldap2                              | OpenLDAP Client Libraries                                                    | package
+i  | liblldp_clif1                         | Link Layer Discovery Protocol (LLDP) libraries                               | package
 i  | liblua5_4-5                           | The Lua integration library                                                  | package
 i  | liblvm2cmd2_03                        | LVM2 command line library                                                    | package
 i  | liblz4-1                              | Hash-based predictive Lempel-Ziv compressor                                  | package
@@ -175,6 +182,7 @@ i  | libmana1                              | MANA runtime library               
 i  | libmediacheck6                        | Library for checking installation or Live media                              | package
 i  | libmlx4-1                             | MLX4 runtime library                                                         | package
 i  | libmlx5-1                             | MLX5 runtime library                                                         | package
+i  | libmnl0                               | Minimalistic Netlink communication library                                   | package
 i  | libmodulemd2                          | Main library for libmodulemd                                                 | package
 i  | libmount1                             | Device mount library                                                         | package
 i  | libmpdec3                             | C library for arbitrary precision decimal floating point arithmetic          | package
@@ -188,9 +196,13 @@ i  | libnl3-200                            | Convenience library for working wit
 i  | libnpth0                              | GNU Portable Threads library                                                 | package
 i  | libnss_usrfiles2                      | NSS usrfiles plugin for glibc                                                | package
 i  | libnuma1                              | NUMA Policy Control                                                          | package
+i  | libnvme-mi1                           | NVMe Managament Interface library for libnvme                                | package
+i  | libnvme1                              | Linux-native nvme device management library                                  | package
+i  | libopeniscsiusr0                      | The iSCSI User-level Library                                                 | package
 i  | libopenssl1_1                         | Secure Sockets and Transport Layer Security                                  | package
 i  | libopenssl3                           | Secure Sockets and Transport Layer Security                                  | package
 i  | libp11-kit0                           | Library to work with PKCS#11 modules                                         | package
+i  | libpciaccess0                         | Generic PCI access library                                                   | package
 i  | libpcre2-8-0                          | A library for Perl-compatible regular expressions                            | package
 i  | libpeas-1_0-0                         | GObject-based Plugin Engine                                                  | package
 i  | libpixman-1-0                         | Pixel manipulation library                                                   | package
@@ -248,6 +260,7 @@ i  | libverto1                             | Runtime libraries for libverto     
 i  | libwrap0                              | The TCP wrapper library                                                      | package
 i  | libxml2-2                             | A Library to Manipulate XML Files                                            | package
 i  | libxslt1                              | XSL Transformation Library                                                   | package
+i  | libxtables12                          | The iptables plugin interface                                                | package
 i  | libxxhash0                            | Shared library for xxHash - a non-cryptographic hash algorithm               | package
 i  | libyajl2                              | Yet Another JSON Library                                                     | package
 i  | libyaml-0-2                           | A YAML parser and emitter written in C                                       | package
@@ -264,8 +277,13 @@ i  | lvm2                                  | Logical Volume Manager Tools       
 i  | mdadm                                 | Utility for configuring "MD" software RAID devices                           | package
 i  | microdnf                              | Lightweight implementation of DNF in C                                       | package
 i  | mtools                                | Tools to access MS-DOS filesystems without kernel drivers                    | package
+i+ | nbd                                   | Network Block Device Server and Client Utilities                             | package
 i  | ncurses-utils                         | Tools using the new curses libraries                                         | package
 i+ | netcfg                                | Network Configuration Files in /etc                                          | package
+i+ | nvme-cli                              | NVM Express user space tools                                                 | package
+i+ | open-iscsi                            | Linux iSCSI Software Initiator                                               | package
+i  | open-isns                             | Partial Implementation of iSNS iSCSI registration                            | package
+i+ | open-lldp                             | Link Layer Discovery Protocol (LLDP) Agent                                   | package
 i  | openssh-clients                       | SSH (Secure Shell) client applications                                       | package
 i  | openssh-common                        | SSH (Secure Shell) common files                                              | package
 i  | openssh-fips                          | OpenSSH FIPS crypto module HMACs                                             | package
