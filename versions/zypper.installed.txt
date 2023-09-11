@@ -293,6 +293,7 @@ i+ | openSUSE                              | openSUSE Tumbleweed                
 i+ | openSUSE-build-key                    | The public gpg keys for rpm package signature verification                   | package
 i+ | openSUSE-release                      | openSUSE Tumbleweed                                                          | package
 i+ | openSUSE-release-appliance-docker     | openSUSE Tumbleweed                                                          | package
+i+ | osc                                   | Command-line client for the Open Build Service                               | package
 i  | p11-kit                               | Library to work with PKCS#11 modules                                         | package
 i  | p11-kit-tools                         | Library to work with PKCS#11 modules -- Tools                                | package
 i  | pam                                   | A Security Tool that Provides Authentication for Applications                | package
