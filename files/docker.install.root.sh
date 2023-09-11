@@ -56,6 +56,7 @@ zypper install -y open-lldp
 zypper install -y nbd
 zypper install -y open-iscsi
 zypper install -y fcoe-utils
+zypper install -y osc
 which qemu-img
 which rpmdb
 
