@@ -368,6 +368,7 @@ i+ | sudo                                  | Execute some commands as root      
 i  | suse-module-tools                     | Configuration for module loading and SUSE-specific utilities for KMPs        | package
 i  | system-group-hardware                 | Hardware related system groups                                               | package
 i  | system-group-kvm                      | System group kvm                                                             | package
+i  | system-user-lp                        | System user lp                                                               | package
 i  | system-user-qemu                      | System user and group qemu                                                   | package
 i  | system-user-root                      | System user and group root                                                   | package
 i  | systemd                               | A System and Session Manager                                                 | package
