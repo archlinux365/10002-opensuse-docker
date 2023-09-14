@@ -229,7 +229,6 @@ i  | libsepol2                             | SELinux binary policy manipulation 
 i  | libsha1detectcoll1                    | Library that can detect SHA-1 collisions                                     | package
 i  | libsigc-2_0-0                         | Typesafe Signal Framework for C++                                            | package
 i  | libslirp0                             | A networking Library                                                         | package
-i  | libslp1                               | An Implementation of the Service Location Protocol V2                        | package
 i  | libsmartcols1                         | Column-based text sort engine                                                | package
 i  | libsnapper7                           | Library for filesystem snapshot management                                   | package
 i  | libsnappy1                            | Shared library from snappy                                                   | package

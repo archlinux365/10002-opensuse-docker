@@ -64,21 +64,21 @@ i | fips                         | 20200505-42.1     | USTC:OSS     |
   | lxqt                         | 20220914-1.2      | USTC:OSS     | 
   | mail_server                  | 20210330-5.1      | USTC:OSS     | 
   | mate                         | 20170319-5.3      | USTC:OSS     | 
-  | microos_apparmor             | 5.0-73.1          | USTC:OSS     | 
-  | microos_base                 | 5.0-73.1          | USTC:OSS     | 
-  | microos_base_microdnf        | 5.0-73.1          | USTC:OSS     | 
-  | microos_base_packagekit      | 5.0-73.1          | USTC:OSS     | 
-  | microos_base_zypper          | 5.0-73.1          | USTC:OSS     | 
-  | microos_cloud                | 5.0-73.1          | USTC:OSS     | 
-  | microos_cockpit              | 5.0-73.1          | USTC:OSS     | 
-  | microos_gnome_desktop        | 5.0-73.1          | USTC:OSS     | 
-  | microos_hardware             | 5.0-73.1          | USTC:OSS     | 
-  | microos_ima_evm              | 5.0-73.1          | USTC:OSS     | 
-  | microos_kde_desktop          | 5.0-73.1          | USTC:OSS     | 
-  | microos_ra_agent             | 5.0-73.1          | USTC:OSS     | 
-  | microos_ra_verifier          | 5.0-73.1          | USTC:OSS     | 
-  | microos_selinux              | 5.0-73.1          | USTC:OSS     | 
-  | microos_sssd_ldap            | 5.0-73.1          | USTC:OSS     | 
+  | microos_apparmor             | 5.0-74.1          | USTC:OSS     | 
+  | microos_base                 | 5.0-74.1          | USTC:OSS     | 
+  | microos_base_microdnf        | 5.0-74.1          | USTC:OSS     | 
+  | microos_base_packagekit      | 5.0-74.1          | USTC:OSS     | 
+  | microos_base_zypper          | 5.0-74.1          | USTC:OSS     | 
+  | microos_cloud                | 5.0-74.1          | USTC:OSS     | 
+  | microos_cockpit              | 5.0-74.1          | USTC:OSS     | 
+  | microos_gnome_desktop        | 5.0-74.1          | USTC:OSS     | 
+  | microos_hardware             | 5.0-74.1          | USTC:OSS     | 
+  | microos_ima_evm              | 5.0-74.1          | USTC:OSS     | 
+  | microos_kde_desktop          | 5.0-74.1          | USTC:OSS     | 
+  | microos_ra_agent             | 5.0-74.1          | USTC:OSS     | 
+  | microos_ra_verifier          | 5.0-74.1          | USTC:OSS     | 
+  | microos_selinux              | 5.0-74.1          | USTC:OSS     | 
+  | microos_sssd_ldap            | 5.0-74.1          | USTC:OSS     | 
   | minimal_base                 | 20200505-42.1     | USTC:OSS     | 
   | multimedia                   | 20201106-3.5      | USTC:OSS     | 
   | network_admin                | 20170319-3.5      | USTC:OSS     | 
