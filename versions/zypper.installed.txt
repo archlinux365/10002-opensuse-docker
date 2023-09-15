@@ -46,7 +46,6 @@ i+ | dracut-ima                            | Dracut modules to build a dracut in
 i  | dracut-kiwi-lib                       | KIWI - Dracut kiwi Library                                                   | package
 i+ | dracut-kiwi-live                      | KIWI - Dracut module for iso(live) image type                                | package
 i+ | dracut-kiwi-oem-dump                  | KIWI - Dracut module for oem(install) image type                             | package
-i+ | dracut-kiwi-oem-repart                | KIWI - Dracut module for oem(repart) image type                              | package
 i+ | dracut-sshd                           | Provide SSH access to initramfs early user space                             | package
 i+ | dracut-tools                          | Tools to build a local initramfs                                             | package
 i+ | dracut-transactional-update           | Dracut module for supporting transactional updates                           | package
