@@ -39,7 +39,8 @@ S | Name                         | Version           | Repository   | Dependency
   | enhanced_base                | 20200505-42.1     | USTC:OSS     | 
   | enlightenment                | 20170319-2.17     | USTC:OSS     | 
   | file_server                  | 20210330-5.1      | USTC:OSS     | 
-i | fips                         | 20200505-42.1     | USTC:OSS     | 
+i | fips                         | 20200505-43.1     | @System      | 
+v | fips                         | 20200505-42.1     | USTC:OSS     | 
   | fonts                        | 20170319-10.1     | USTC:OSS     | 
   | games                        | 20220126-1.5      | USTC:OSS     | 
   | gateway_server               | 20210330-5.1      | USTC:OSS     | 
