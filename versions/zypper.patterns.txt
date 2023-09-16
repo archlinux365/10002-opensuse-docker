@@ -2,16 +2,16 @@ Loading repository data...
 Reading installed packages...
 S | Name                         | Version           | Repository   | Dependency
 --+------------------------------+-------------------+--------------+-----------
-  | 32bit                        | 20200505-42.1     | USTC:OSS     | 
-  | apparmor                     | 20200505-42.1     | USTC:OSS     | 
-  | base                         | 20200505-42.1     | USTC:OSS     | 
-  | basic_desktop                | 20200505-42.1     | USTC:OSS     | 
+  | 32bit                        | 20200505-43.1     | USTC:OSS     | 
+  | apparmor                     | 20200505-43.1     | USTC:OSS     | 
+  | base                         | 20200505-43.1     | USTC:OSS     | 
+  | basic_desktop                | 20200505-43.1     | USTC:OSS     | 
   | books                        | 20201106-3.5      | USTC:OSS     | 
   | budgie                       | 20220527-2.2      | USTC:OSS     | 
   | budgie_applets               | 20220527-2.2      | USTC:OSS     | 
   | ceph_base                    | 1.0-5.2           | USTC:OSS     | 
   | cinnamon                     | 202021205-2.8     | USTC:OSS     | 
-  | console                      | 20200505-42.1     | USTC:OSS     | 
+  | console                      | 20200505-43.1     | USTC:OSS     | 
   | container_runtime            | 5.1-6.1           | USTC:OSS     | 
   | container_runtime_kubernetes | 5.1-2.1           | USTC:OSS     | 
   | deepin                       | 15.4.20220603-2.3 | USTC:OSS     | 
@@ -35,12 +35,11 @@ S | Name                         | Version           | Repository   | Dependency
   | devel_yast                   | 20220411-1.4      | USTC:OSS     | 
   | dhcp_dns_server              | 20210330-5.1      | USTC:OSS     | 
   | directory_server             | 20210330-5.1      | USTC:OSS     | 
-  | documentation                | 20200505-42.1     | USTC:OSS     | 
-  | enhanced_base                | 20200505-42.1     | USTC:OSS     | 
+  | documentation                | 20200505-43.1     | USTC:OSS     | 
+  | enhanced_base                | 20200505-43.1     | USTC:OSS     | 
   | enlightenment                | 20170319-2.17     | USTC:OSS     | 
   | file_server                  | 20210330-5.1      | USTC:OSS     | 
-i | fips                         | 20200505-43.1     | @System      | 
-v | fips                         | 20200505-42.1     | USTC:OSS     | 
+i | fips                         | 20200505-43.1     | USTC:OSS     | 
   | fonts                        | 20170319-10.1     | USTC:OSS     | 
   | games                        | 20220126-1.5      | USTC:OSS     | 
   | gateway_server               | 20210330-5.1      | USTC:OSS     | 
@@ -80,22 +79,22 @@ v | fips                         | 20200505-42.1     | USTC:OSS     |
   | microos_ra_verifier          | 5.0-75.1          | USTC:OSS     | 
   | microos_selinux              | 5.0-75.1          | USTC:OSS     | 
   | microos_sssd_ldap            | 5.0-75.1          | USTC:OSS     | 
-  | minimal_base                 | 20200505-42.1     | USTC:OSS     | 
+  | minimal_base                 | 20200505-43.1     | USTC:OSS     | 
   | multimedia                   | 20201106-3.5      | USTC:OSS     | 
   | network_admin                | 20170319-3.5      | USTC:OSS     | 
   | non_oss                      | 20170319-1.53     | USTC:NON-OSS | 
   | office                       | 20170506-3.14     | USTC:OSS     | 
   | openSUSEway                  | 0.15.2-1.1        | USTC:OSS     | 
   | print_server                 | 20210330-5.1      | USTC:OSS     | 
-  | selinux                      | 20200505-42.1     | USTC:OSS     | 
-  | sw_management                | 20200505-42.1     | USTC:OSS     | 
+  | selinux                      | 20200505-43.1     | USTC:OSS     | 
+  | sw_management                | 20200505-43.1     | USTC:OSS     | 
   | sway                         | 20200619-6.1      | USTC:OSS     | 
   | technical_writing            | 20201106-3.5      | USTC:OSS     | 
-  | update_test                  | 20200505-42.1     | USTC:OSS     | 
+  | update_test                  | 20200505-43.1     | USTC:OSS     | 
   | wsl_base                     | 20221221-1.2      | USTC:OSS     | 
   | wsl_gui                      | 20221221-1.2      | USTC:OSS     | 
   | wsl_systemd                  | 20221221-1.2      | USTC:OSS     | 
-  | x11                          | 20200505-42.1     | USTC:OSS     | 
+  | x11                          | 20200505-43.1     | USTC:OSS     | 
   | x11_yast                     | 20220411-1.4      | USTC:OSS     | 
   | x86_64_v3                    | 20230201-3.1      | USTC:OSS     | 
   | xen_server                   | 20210330-5.1      | USTC:OSS     | 
